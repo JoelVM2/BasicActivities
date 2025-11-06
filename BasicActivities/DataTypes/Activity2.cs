@@ -6,29 +6,20 @@ using System.Threading.Tasks;
 
 namespace BasicActivities.DataTypes
 {
-    public class Activity1
+    public class Activity2
     {
-        public static void dataTypes()
+        public static void TwoNumbers()
         {
-            int naturalNumber;
-            double decimalNumber;
-            char letter;
-            bool stoplight;
-            string phrase;
+            double firstNumber;
+            double secondNumber;
 
-            Console.WriteLine("Insert a natural number: ");
-            naturalNumber = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Insert a decimal number: ");
-            decimalNumber = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Insert a letter: ");
-            letter = Convert.ToChar(Console.ReadLine());
-            Console.WriteLine("Are you an idiot? (true/false)");
-            stoplight = Convert.ToBoolean(Console.ReadLine());
-            Console.WriteLine("Insert a short phrase: ");
-            phrase = Console.ReadLine();
+            Console.WriteLine("Insert a number: ");
+            firstNumber = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Insert a second number: ");
+            secondNumber = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine($"Natural number: {naturalNumber}\nDecimal number: {decimalNumber}\nA letter: {letter}\nAre you?: {stoplight}\nPhrase: {phrase}");
-
+            Console.WriteLine($"The sum of the two numbers is {(firstNumber+secondNumber)}.\nThe substraction of the two numbers is {(firstNumber - secondNumber)}" +
+                $".\nThe multiplication of the two numbers is {(firstNumber * secondNumber)}.\nThe division of the two numbers is {(firstNumber / secondNumber)}.\nThe rest of the two numbers is {(firstNumber % secondNumber)}.");
 
         }
     }

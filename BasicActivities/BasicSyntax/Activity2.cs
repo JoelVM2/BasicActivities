@@ -8,7 +8,7 @@ namespace BasicActivities.BasicSyntax
 {
     public class Activity2
     {
-        public static void totalPrice()
+        public static void TotalPrice()
         {
             string cider;
             string price;

@@ -8,7 +8,7 @@ namespace BasicActivities.BasicSyntax
 {
     public class Activity1
     {
-        public static void showPersonalData()
+        public static void ShowPersonalData()
         {
             string name;
             string age;
