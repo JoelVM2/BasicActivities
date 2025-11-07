@@ -6,6 +6,7 @@ public class Program
 {
     static void Main(string[] args)
     {
+        double[] notas = [2, 3, 4, 5, 6, 7, 8];
 
         // BasicActivities.BasicSyntax.Activity1.ShowPersonalData();
         // BasicActivities.BasicSyntax.Activity2.TotalPrice();
@@ -25,7 +26,7 @@ public class Program
         // BasicActivities.Arrays.Activity4.FilterEvenNumbers();
         // BasicActivities.Methods.Activity1.Greet();
         // BasicActivities.Methods.Activity2.Sum(7, 8);
-        //Console.WriteLine(BasicActivities.Methods.Activity3.Even(1));
-
+        // Console.WriteLine(BasicActivities.Methods.Activity3.Even(1));
+        //Console.WriteLine(BasicActivities.Methods.Activity4.Average(notas));
     }
 }
